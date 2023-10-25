@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+  font-size: 24px;
+  color: #6b311d;
+  display: flex;
+}
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 600px;
+}
+.immagine {
+  background-image: url(../assets/imgs/honey.jpg);
+  flex-basis: 70%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px 100px 0 0;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 30%;
+  background-color: #e4e0cb;
+  border-radius: 0 0 100px 100px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.biohoney {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.biohoney h3,
+.biohoney p {
+  margin: 0;
+}
+.biohoney h3 {
+  font-size: larger;
+  font-weight: 900;
+}
+.biohoney p {
+  font-size: 20px;
+}
+.kg p {
+  font-size: 30px;
+}
+.addtocart {
+  font-family: "Roboto", sans-serif;
+  color: #6b311d;
+  background-color: #f3df85;
+  width: 50%;
+  margin: auto;
+  border: none;
+  border-radius: 90px;
+  height: 4vh;
+  margin-bottom: 1em;
+  font-size: 22px;
+}

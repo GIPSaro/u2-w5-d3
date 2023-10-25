@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Robotico", sans-serif;
+  color: #6b311d;
+}
+.containerArticle {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  background-color: #e9e1bf;
+  border-radius: 30px;
+}
+
+img {
+  margin: 1em;
+  flex-basis: 45.5%;
+  width: 90%;
+}
+.article {
+  display: flex;
+  flex-basis: 45.5%;
+  flex-direction: column;
+  margin-top: 1em;
+  width: 90%;
+}
+
+@media screen and (min-width: 700px) {
+  .containerArticle {
+    flex-wrap: wrap-reverse;
+  }
+}
