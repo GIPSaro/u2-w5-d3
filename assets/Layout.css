@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  display: flex;
+  font-family: "Robotico", sans-serif;
+  /* flex-direction: column; */
+}
+button {
+  font-family: "Roboto", sans-serif;
+  font-size: 31px;
+  color: #6b311d;
+  background-color: #f3df85;
+  border-radius: 90px;
+  padding: 10px;
+  margin: 0 20px;
+  flex-grow: 1;
+  border: none;
+}
+.containerNav {
+  display: flex;
+  font-family: "Robotico", sans-serif;
+  color: #6b311d;
+  background-color: #e9e1bf;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 90px;
+  flex-wrap: wrap;
+}
+.shop {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  flex-grow: 1.5;
+  font-size: 24px;
+  font-weight: bold;
+}
+.shop img {
+  height: 10vh;
+}
+.containerCard {
+  display: flex;
+  font-family: "Robotico", sans-serif;
+  color: #6b311d;
+  flex-direction: column;
+  height: 600px;
+  width: 600px;
+}
+.immagine {
+  background-image: url(../assets/imgs/honey.jpg);
+  flex-basis: 70%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px 100px 0 0;
+}
+.card {
+  display: flex;
+  /* flex-direction: column; */
+  flex-basis: 30%;
+  background-color: #e4e0cb;
+  border-radius: 0 0 100px 100px;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.biohoney {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.biohoney h3,
+.biohoney p {
+  margin: 0;
+}
+.biohoney h3 {
+  font-size: larger;
+  font-weight: 900;
+}
+.biohoney p {
+  font-size: 20px;
+}
+.kg p {
+  font-size: 30px;
+}
+.addtocart {
+  font-family: "Roboto", sans-serif;
+  color: #6b311d;
+  background-color: #f3df85;
+  width: 50%;
+  margin: auto;
+  border: none;
+  border-radius: 90px;
+  height: 4vh;
+  margin-bottom: 1em;
+  font-size: 22px;
+}
+.containerArticle {
+  display: flex;
+  font-family: "Robotico", sans-serif;
+  color: #6b311d;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #e9e1bf;
+  border-radius: 30px;
+}
+
+img {
+  margin: 1em;
+  flex-basis: 45.5%;
+  width: 90%;
+  object-fit: cover;
+}
+.article {
+  display: flex;
+  flex-basis: 45.5%;
+  flex-direction: column;
+  margin-top: 1em;
+  width: 90%;
+}
